@@ -1,0 +1,2 @@
+# Ensures that we are not allowed to commit unless our linter and tests pass.
+npm run lint && npm run test:ci
