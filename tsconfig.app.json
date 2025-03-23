@@ -28,8 +28,15 @@
     /* Paths */
     "baseUrl": "./src/",
     "paths": {
+      "@api/*": ["api/*"],
+      "@assets/*": ["assets/*"],
       "@components/*": ["components/*"],
+      "@constants/*": ["constants/*"],
       "@hooks/*": ["hooks/*"],
+      "@lib/*": ["lib/*"],
+      "@stores/*": ["stores/*"],
+      "@styles/*": ["styles/*"],
+      "@custom-types/*": ["types/*"],
       "@utils/*": ["utils/*"]
     }
   },
