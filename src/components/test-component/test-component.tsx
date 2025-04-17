@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import { Link } from 'react-router';
+
 import styles from './test-component.module.scss';
 
 const TestComponent = () => {
@@ -23,6 +25,9 @@ const TestComponent = () => {
         <figcaption>Powered by </figcaption>
         <img src="src/assets/react.svg" alt="react-logo" />
       </figure>
+
+      <Link to="/about">About</Link>
+      <Link to="/users">Users</Link>
     </section>
   );
 };
